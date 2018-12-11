@@ -8,8 +8,8 @@ spec:
     accessModes:
        - ReadWriteMany
     nfs: 
-      path: /opt/share/channel-artifacts
-      server: 10.112.122.9 #change to your nfs server ip here
+      path: /opt/nfs/general/channel-artifacts
+      server: 3.80.200.1 #change to your nfs server ip here
 ---
 
 apiVersion: v1
